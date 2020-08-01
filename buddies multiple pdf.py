@@ -26,6 +26,7 @@ selesai = False
 
 # petunjuk penggunaan
 print('masukkan data setiap orang, dipisahkan dengan baris kosong setiap orangnya. masukkan "selesai" jika sudah selesai')
+print()
 
 while not(selesai):
     # save FPDF() class into a variable pdf
