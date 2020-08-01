@@ -1,5 +1,4 @@
-# Python program to create 
-# a pdf file 
+# program python untuk membuat file pdf wawancara
   
 # untuk yang memiliki masalah menggunakan module
 import sys
@@ -18,29 +17,21 @@ def nim(a):
             c += a[b+i]
         return c
 
-# save FPDF() class into a  
-# variable pdf 
-pdf = FPDF() 
-  
-
+# variabel awal
 your_nim = '16519275'
 a = 'random'
 b = '_16519.pdf'
+i = 1
 
-# Add a page 
+# setting variabel dari module fpdf
+pdf = FPDF()
 pdf.add_page() 
-  
-# set style and size of font  
-# that you want in the pdf 
 pdf.set_font("Arial", size = 15)
 
 a = str(input())
-i = 1
 while a != 'a':
     pdf.cell(200, 10, txt = a, ln = i, align = 'L')
     if nim(a)!='none':
         b = '_' + nim(a) + '.pdf'
     a = str(input())
-# save the pdf with name .pdf 
 pdf.output(your_nim + b)
-print('selesai')
