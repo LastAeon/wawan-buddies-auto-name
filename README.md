@@ -6,4 +6,4 @@ edit dulu kodenya.
 ganti variabel your_nim jadi nim kamu.
 
 
-buka filenya, kopas data orangnya, viola. pdfnya jadi, dengan nama yang sesuai
+buka filenya, kopas data orangnya, tulis a di line baru. viola. pdfnya jadi, dengan nama yang sesuai
