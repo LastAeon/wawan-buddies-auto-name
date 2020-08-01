@@ -13,6 +13,7 @@ buat bikin pdf wawan buddies
 6. tambahkan selesai(gaada huruf kapital) sebagai data terakhir.
 
 ## contoh data wawancara
+```
 Nama : Syihabuddin Yahya Muhammad
 Jurusan : IF
 NIM : 16519275
@@ -25,6 +26,6 @@ NIM : 16519xxx
 Keunikan : apapun itu
 FI : terserah kamu
 selesai
-
+```
 
 
