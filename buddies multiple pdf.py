@@ -20,12 +20,12 @@ def nim(a):
         return c 
   
 # inisialisasi variabel
-nim_kamu = '16519275'
+nim_kamu = str(input("NIM Kamu"))
 b = '_16519.pdf'
 selesai = False
 
 # petunjuk penggunaan
-print('masukkan data setiap orang, dipisahkan dengan "next" setiap orangnya. masukkan "selesai" jika sudah selesai')
+print('masukkan data setiap orang, dipisahkan dengan baris kosong setiap orangnya. masukkan "selesai" jika sudah selesai')
 
 while not(selesai):
     # save FPDF() class into a variable pdf
@@ -43,7 +43,7 @@ while not(selesai):
     b = '_'
 
     # input data file dan menentukan nama file
-    while (teks != 'next' and teks != 'selesai'):
+    while (teks != '' and teks != 'selesai'):
         pdf.cell(200, 10, txt = teks, ln = i, align = 'L')
         if nim(teks)!='none':
             b = b + nim(teks) + '.pdf'
