@@ -20,7 +20,7 @@ def nim(a):
         return c 
   
 # inisialisasi variabel
-nim_kamu = str(input("NIM Kamu"))
+nim_kamu = str(input("NIM Kamu: "))
 b = '_16519.pdf'
 selesai = False
 
